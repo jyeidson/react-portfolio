@@ -45,7 +45,10 @@ export default function ContactForm() {
   const [message, setMessage] = useState('');
   return (
     <>
-      <FormStyle>
+      <FormStyle
+        action="https://getform.io/f/78ec8ef7-d138-4aaa-9f6c-79a21bd76d06"
+        method="POST"
+      >
         <div className="form-group">
           <label htmlFor="name">
             Your Name
